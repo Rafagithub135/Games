@@ -1,0 +1,21 @@
+:root {
+    /* colors */
+    --bg-clr: #f0f0f0;
+    --border-clr: #e6e6e6;
+    --light-text-clr: #999;
+    --red: #e6563b;
+    --orange: #eb9d3a;
+    --green: #7cb06c;
+    --turq: #00aba9;
+    --dark-font-clr: #222529;
+    --abel: "Abel", sans-serif;
+    --anton: "Anton", sans-serif;
+}
+
+.green-circle {
+    background-color: var(--green);
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    font-size: 1em;
+}
