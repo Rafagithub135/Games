@@ -24,7 +24,31 @@ h1 {
 .green-circle {
     background-color: var(--green);
     border-radius: 50%;
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
     font-size: 1em;
+}
+
+.mole {
+    height: 125px;
+    width: 125px;
+}
+
+
+#circles {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin-top: 4rem;
+}
+
+#circles div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: var(--anton);
+    border: 0.5em white solid;
+    border-radius: 50%;
+    margin: 0 1rem 0 0;
 }
