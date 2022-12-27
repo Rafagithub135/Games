@@ -1,3 +1,5 @@
+// Code supplied by Web Dev Simplified
+// Modifications by Ralph McCloskey
 import Deck from "./deck.js";
 
 const computerCardSlot = document.querySelector(".computer-card-slot")
@@ -56,11 +58,11 @@ function flipCards() {
     computerCardSlot.appendChild(computerCard.getHTML());
     updateDeckCount();
     if (isRoundWinner(playerCard, computerCard)) {
-        text.innerText = "Win";
+        text.innerText = "Win!";
         playerDeck.push(playerCard);
         playerDeck.push(computerCard);
     } else if (isRoundWinner(computerCard, playerCard)) {
-        text.innerText = "Lose";
+        text.innerText = "Lose!";
         computerDeck.push(playerCard);
         computerDeck.push(computerCard);
     } else {
