@@ -103,6 +103,13 @@ body {
     padding: 30px;
 }
 
+#movie-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
 
 /*h1 {*/
 /*    justify-content: center;*/

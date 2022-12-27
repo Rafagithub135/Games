@@ -11,15 +11,26 @@
     <title>Concentration</title>
 </head>
 <body>
+<button id="new-game" class="btn btn-primary new-game">Start A New Game</button>
+<button id="high-scores" class="btn btn-primary high-scores">High Scores</button>
 <h1 class="">CLICK ON ANY TWO CARDS</h1>
+<!--<div id="movie-cards" class="d-flex"></div>-->
 <div class="card">
-    <div class="card-front">
-        <div class="card__inner__front">
-            <img src="images/boxer.jpeg" alt="1">
+    <div class="card__inner">
+        <div class="card__face card__face--front">
+            <h2>Front</h2>
         </div>
-    </div>
-    <div class="card-back">
-        <img src="images/" alt="2">
+        <div class="card__face card__face--back">
+            <div class="card__content">
+                <div class="card__header">
+                    <img src="images/jack-russell.jpeg" alt="Picture of a dog">
+                    <h2>Text Also</h2>
+                </div>
+                <div class="card__body"></div>
+                <h3>Text</h3>
+                <p>Some text</p>
+            </div>
+        </div>
     </div>
 </div>
 <script src="js/functions.js"></script>
