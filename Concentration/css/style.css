@@ -1,3 +1,4 @@
+/*Most css taken from Tyler Potts*/
 :root {
     --primary: #FFCE00;
     --secondary: #FE4880;
@@ -63,7 +64,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0 20px;
+    /*padding: 0 20px;*/
 }
 
 .card__content {
@@ -72,31 +73,34 @@ body {
 }
 
 .card__header {
-    position: relative;
-    padding: 30px 30px 40px;
-}
-
-.card__header:after {
-    content: '';
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-    border-radius: 0 0 50% 0;
-    background-image: linear-gradient(to bottom left, var(--primary) 10%, var(--secondary) 115%);
-}
-
-.image {
-    display: block;
     width: 100%;
     height: 100%;
-    margin: 0 auto 30px;
-    border-radius: 50%;
+/*    position: relative;*/
+/*    padding: 30px 30px 40px;*/
+}
+
+/*.card__header:after {*/
+/*    content: '';*/
+/*    display: block;*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    bottom: 0;*/
+/*    z-index: -1;*/
+/*    border-radius: 0 0 50% 0;*/
+/*    background-image: linear-gradient(to bottom left, var(--primary) 10%, var(--secondary) 115%);*/
+/*}*/
+
+.card-img-top {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    /*margin: 0 auto 30px;*/
+    /*border-radius: 50%;*/
     background-color: #FFF;
     border: 5px solid #FFF;
+    align-content: center;
     object-fit: cover;
 }
 
