@@ -37,7 +37,7 @@ class Card {
     }
 
     get color() {
-        return this.suit === "&hearts;" || this.suit === "&diams;" ? "red" : "black"
+        return this.suit === "♥" || this.suit === "♦" ? "red" : "black"
     }
 
     getHTML() {
