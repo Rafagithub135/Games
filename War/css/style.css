@@ -5,6 +5,7 @@
 }
 
 body {
+    background-color: skyblue;
     margin: 0;
     display: grid;
     grid-template-columns: repeat(2, 20rem);
